@@ -56,7 +56,7 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "jdstore_#{Rails.env}"
   config.action_mailer.perform_caching = false
-  config.action_mailer.default_url_options = { :host => '你的herokuapp地址'}
+  config.action_mailer.default_url_options = { :host => 'https://obscure-oasis-84160.herokuapp.com'}
 
   config.action_mailer.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
